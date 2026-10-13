@@ -1,0 +1,13 @@
+node_modules/
+release/
+distribution/
+backups/
+verification/
+*.log
+*.jsonl
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+{
+  "name": "hangul-converter",
+  "version": "0.2.4",
+  "private": true,
+  "author": "HDH",
+  "description": "한귤변환기: Windows desktop converter for HWP, HML, HWPX, and PDF workflows.",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "test": "node --test tests/backend-workers.cjs tests/ui-model.test.cjs tests/ui-preload.test.cjs"
+  },
+  "dependencies": {}
+}
