@@ -44,6 +44,8 @@ electron .
 
 Electron 실행 파일과 한컴오피스는 이 저장소에 포함하지 않습니다.
 
+기본 실행은 `dist/index.html`을 직접 열며 별도 개발 서버가 필요하지 않습니다. 외부 개발 서버를 사용하는 경우에만 `ELECTRON_RENDERER_URL` 또는 `VITE_DEV_SERVER_URL` 환경변수에 URL을 지정하세요. 둘 다 설정하면 `ELECTRON_RENDERER_URL`을 우선 사용합니다.
+
 ## 검사
 
 ```powershell
